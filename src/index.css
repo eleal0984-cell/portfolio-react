@@ -1,0 +1,30 @@
+/* Estilos Base */
+body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; color: #343a40; transition: 0.3s; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px 5%; background-color: #ffffff; border-bottom: 1px solid #e9ecef; }
+.logo { font-size: 1.5em; font-weight: bold; color: #343a40; }
+.menu { list-style: none; display: flex; gap: 20px; align-items: center; }
+.menu a { text-decoration: none; color: #343a40; }
+
+/* Botão Tema */
+.btn-tema { background-color: #007bff; color: white; border: none; padding: 8px 16px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+
+/* Secções */
+section { padding: 60px 10%; text-align: center; }
+.foto-perfil { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #fff; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+.grid-projetos { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px; }
+
+/* Cartão (ProjectCard) */
+.cartao { background-color: #ffffff; padding: 20px; border-radius: 8px; width: 280px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+.cartao a { color: #007bff; text-decoration: none; font-weight: bold; display: inline-block; margin-top: 10px; }
+
+/* Formulário (ContactForm) */
+.form-contacto { max-width: 500px; margin: 0 auto; background: #ffffff; padding: 30px; border-radius: 8px; text-align: left; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+.form-contacto label { display: block; margin-bottom: 5px; font-weight: bold; font-size: 0.9em; color: #555; }
+.form-contacto input, .form-contacto textarea { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+
+/* A REGRA DO PROFESSOR (Slide 255) */
+.App.dark-theme { background-color: #121214; color: #e1e1e6; min-height: 100vh; }
+.App.dark-theme header, .App.dark-theme .cartao, .App.dark-theme .form-contacto { background-color: #202024; border-color: #323238; }
+.App.dark-theme .logo, .App.dark-theme .menu a { color: #e1e1e6; }
+.App.dark-theme label { color: #a8a8b3; }
+.App.dark-theme input, .App.dark-theme textarea { background-color: #121214; color: #e1e1e6; border-color: #323238; }
