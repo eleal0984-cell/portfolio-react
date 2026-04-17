@@ -1,11 +1,19 @@
 import React from 'react';
 
-function ProjectCard({ titulo, descricao, link }) {
+function ProjectCard({ titulo, descricao }) {
   return (
-    <div className="cartao">
+    <div className="card-projeto">
       <h3>{titulo}</h3>
       <p>{descricao}</p>
-      <a href={link} target="_blank" rel="noreferrer">Ver no GitHub</a>
+      {/* Aqui transformamos o texto em link real */}
+      <a 
+        href="https://github.com/eleal0984-cell/portfolio-react" 
+        target="_blank" 
+        rel="noreferrer"
+        className="link-github"
+      >
+        Ver no GitHub
+      </a>
     </div>
   );
 }
