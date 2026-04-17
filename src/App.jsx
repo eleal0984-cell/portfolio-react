@@ -1,7 +1,6 @@
 import React, { useState } from 'react'; 
 import Header from './components/Header';
 import ProjectCard from './components/ProjectCard';
-import './App.css';
 
 function App() {
   // ETAPA 6: Criar o estado para controlar o tema (Slide 262)
